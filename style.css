@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#urne{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    max-width: 900px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+[id^="urna"]{
+    padding: 20px;
+    flex: auto;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: yellow;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#urne{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex; 
+    max-width: 900px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+[id^="echipa"]{
+    flex: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+[id^="echipa"] ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#echipe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+#createTeams{
+    background-color:red;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+#randomize{
+   top:50%;
+   left:45%;
+   position: absolute;
+}
+
+#echipa1{
+    color:white;
+    background-color: blue;
+}
+
+#echipa2{
+    color:white;
+    background-color: red;
+}
+
+#echipa3{
+    color:black;
+    background-color: white;
+}
+
+input[type=text]{
+    width: 75%;
+}
