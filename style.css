@@ -34,6 +34,25 @@ ul{
     margin-top: 100px;
 }
 
+@media(max-width:800px){
+    #urne{
+        flex-direction: column;
+        margin: 2px;
+        padding: 2px;
+    }
+    [id^="urna"]{
+        border: 1px solid black;
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .urna{
+        display:flex;
+        justify-content: start;
+    }
+}
+
 [id^="echipa"]{
     flex: auto;
     padding: 20px;
